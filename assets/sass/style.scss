@@ -1,0 +1,20 @@
+// ==========================================================================
+// Theme Style Main
+// ==========================================================================
+
+/*!
+Theme Name: Race Chrome
+Author URI: http://wpod.in/
+Description: Race Chrome main stylesheet.
+Author: the Race Chrome team
+Author URI: http://wpod.in/#colaboradores
+*/
+
+@import
+        "variables",           // Theme       Custom Variables
+        "bootstrap/bootstrap", // Bootstrap   Styles Core
+        "wordpress/wordpress", // WordPress   Styles Core
+        "woocommerce",       // WooCommerce Styles Core
+        "race-chrome/core",           // Race Chrome        Styles Core
+        "layout"               // Theme       Custom Layout
+;

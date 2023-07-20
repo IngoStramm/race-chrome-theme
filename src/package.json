@@ -1,0 +1,27 @@
+{
+  "name": "race-chrome",
+  "version": "1.0.0",
+  "description": "Tema do site da Race Chrome",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ingo Stramm",
+  "license": "ISC",
+  "devDependencies": {
+    "glob-watcher": "^6.0.0",
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-rename": "^0.2.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-curl": "^2.5.1",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-zip": "^0.20.0",
+    "load-grunt-tasks": "^5.1.0",
+    "readable-stream": "^4.4.2"
+  }
+}
