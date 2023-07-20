@@ -321,10 +321,20 @@ require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/ingostramm/race-chrome-theme/',
-    __FILE__,
+    'https://raw.githubusercontent.com/IngoStramm/race-chrome-theme/main/info.json',
+    __FILE__, //Full path to the main plugin file or functions.php.
     'race-chrome'
 );
 
-//Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('main'); 
+// require 'plugin-update-checker/plugin-update-checker.php';
+
+// use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+// $myUpdateChecker = PucFactory::buildUpdateChecker(
+//     'https://github.com/ingostramm/race-chrome-theme/',
+//     __FILE__,
+//     'race-chrome'
+// );
+
+// //Set the branch that contains the stable release.
+// $myUpdateChecker->setBranch('main'); 

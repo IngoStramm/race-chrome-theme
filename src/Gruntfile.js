@@ -138,7 +138,7 @@ module.exports = function( grunt ) {
 					'!../**.zip',
 					'<%= dirs.js %>/main.min.js'
 				],
-				dest: '../<%= pkg.name %>.zip'
+				dest: '../dist/<%= pkg.name %>.zip'
 			}
 		},
 
